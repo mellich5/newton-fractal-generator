@@ -13,7 +13,7 @@ HALF_RES = RESOLUTION // 2
 WIDTH = 1
 INCREMENT = WIDTH / RESOLUTION
 CENTER = (1.5, 2.28)
-BACKGROUND_IMAGE = "charcoal.png"
+BACKGROUND_IMAGE = "sample.png"
 FILENAME = "samplefractal.png"
 
 
@@ -270,4 +270,5 @@ def create_image():
 if __name__ == '__main__':
     print("Generating new image...")
     create_image()
+
     print("Done.")
